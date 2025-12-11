@@ -4,6 +4,8 @@ import { Link } from "react-router";
 import { motion, useScroll, useTransform } from "framer-motion";
 import SideNavbar from "./SideNavbar";
 
+const DDS_PLATFORM_URL = "https://acc-seven-theta.vercel.app/";
+
 const Links = [
   { name: "Events", link: "/events" },
   { name: "Team", link: "/team" },
@@ -56,7 +58,7 @@ const Navbar = () => {
         {/* THE MENU BUTTON */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="rounded-full bg-neutral-50 cursor-pointer p-2.5 md:p-3.5 relative  flex items-center justify-center"
+          className="rounded-full bg-neutral-50 cursor-pointer p-2.5 md:p-3.5 relative  flex items-center justify-center"
         >
           <Menu className="" />
         </button>
@@ -85,13 +87,17 @@ function NoticeBoard({ isOpen }) {
       viewport={{ once: false }}
       ref={noticeRef}
       style={{ opacity }}
-      className={`fixed top-0 right-48 2xl:right-[19vw] 3xl:right-[8vw] group cursor-pointer scale-80 hidden xl:block lg:scale-100 z-[9] ${
-        isOpen ? "hidden" : "block"
-      } transition-all ease-in-out duration-500`}
+      className={`fixed top-0 right-48 2xl:right-[19vw] 3xl:right-[8vw] group cursor-pointer scale-80 hidden xl:block lg:scale-100 z-[9] ${isOpen ? "hidden" : "block"
+        } transition-all ease-in-out duration-500`}
     >
       <div className="w-fit bg-black relative">
-        <motion.div className="flex items-center justify-around p-1  lg:px-3">
-          <a href='/newsletter' className="text-white/95 text-xs text-center p-1 relative ">
+        <motion.div className="flex items-center justify-around p-1  lg:px-3">
+          <a
+            href={DDS_PLATFORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/95 text-xs text-center p-1 relative "
+          >
             Visit our DDS platform
           </a>
           <ArrowRight

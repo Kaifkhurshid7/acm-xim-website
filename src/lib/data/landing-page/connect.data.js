@@ -47,13 +47,20 @@ export const connectData = {
   newsletter: {
     heading: {
       main: "Join our",
-      highlight: "newsletter",
+      highlight: "Newsletter", // Capitalized for better appearance
     },
-    description:
-      "Stay updated with chapter announcements, upcoming events, workshops, and opportunities curated for the ACM XIM community.",
-    emailLabel: "Your email address",
-    placeholder: "you@example.com",
-    button: "Subscribe to Newsletter",
+    description: "Stay updated with chapter announcements, upcoming events, workshops, and opportunities curated for the ACM XIM community.",
+    // Removed emailLabel, placeholder, and button fields
+
+    // Added new fields for group links
+    whatsapp: {
+      label: "Join WhatsApp Group",
+      link: "YOUR_WHATSAPP_GROUP_INVITE_LINK_HERE", // **Replace with the actual link**
+    },
+    discord: {
+      label: "Join Discord Server",
+      link: "YOUR_DISCORD_INVITE_LINK_HERE", // **Replace with the actual link**
+    },
   },
   footer: {
     left: {
