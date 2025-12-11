@@ -6,7 +6,7 @@ const HighlightHeader = () => {
 			<h1 className="font-bebas-neue font-bold text-6xl text-center pb-6">
 				Highest{" "}
 				<span className="text-blue-500">Number of Activites</span> in February
-				2025
+				2024
 			</h1>
 			<p className="text-sm md:text-base xl:text-lg text-center text-neutral-700">
 				We conducted the highest number of chapter activities in{" "}
