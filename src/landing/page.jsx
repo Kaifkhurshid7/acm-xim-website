@@ -4,7 +4,7 @@ import AboutMore from "./sections/AboutMore";
 import Hightlights from "./sections/Highlights";
 import Events from "./sections/Events";
 import MeetTeam from "./sections/MeetTeam";
-import Newsletter from "./sections/Newsletter";
+import Projects from "./sections/Projects";
 import LetsConnect from "./sections/LetsConnect";
 import Principle from "./sections/Principle";
 import ScrollProgress from "../lib/ScrollProgress";
@@ -21,7 +21,7 @@ const Page = () => {
 			<Hightlights />
 			<Events />
 			{/* <Principle /> */}
-			<Newsletter />
+			<Projects />
 			{/* <MeetTeam/> */}
 			<CallToAction />
 			<Gallery />

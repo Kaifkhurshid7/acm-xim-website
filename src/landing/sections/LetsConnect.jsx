@@ -1,8 +1,5 @@
 import React from "react";
 import { connectData } from "../../lib/data/landing-page/connect.data";
-// Assuming you have icons for WhatsApp and Discord available.
-// For demonstration, I'll use placeholders. You may need to import actual icons (e.g., from 'react-icons').
-// Example import: import { FaWhatsapp, FaDiscord } from 'react-icons/fa';
 
 const ConnnectWithUs = () => {
     return (
@@ -131,9 +128,8 @@ function FooterNavigation() {
             <div className="flex justify-between items-center relative md:top-1">
                 <a
                     href={left.href}
-                    className={`${
-                        left.hidden ? "opacity-0 pointer-events-none" : ""
-                    } font-inter uppercase flex items-center group cursor-pointer`}
+                    className={`${left.hidden ? "opacity-0 pointer-events-none" : ""
+                        } font-inter uppercase flex items-center group cursor-pointer`}
                 >
                     <left.icon size={18} />
                     <span className="ml-1">{left.label}</span>

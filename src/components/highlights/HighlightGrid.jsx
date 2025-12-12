@@ -10,12 +10,12 @@ const HighlightGrid = () => {
 				<h1 className="font-bebas-neue font-semibold text-6xl text-center pb-6">
 					Other <span className="text-blue-500">Milestones</span> ...
 				</h1>
-			<p className="text-sm md:text-base xl:text-lg text-center text-neutral-700">
-  We successfully secured participation from students representing{" "}
-  <span className="text-blue-700">50+ colleges across India</span> in our{" "}
-  <span className="text-blue-700">website-building and entrepreneurship/Trading events</span>,
-  reflecting the chapter’s growing national reach and collaborative impact.
-</p>
+				<p className="text-sm md:text-base xl:text-lg text-center text-neutral-700">
+					We successfully secured participation from students representing{" "}
+					<span className="text-blue-700">50+ colleges across India</span> in our{" "}
+					<span className="text-blue-700">website-building and entrepreneurship/Trading events</span>,
+					reflecting the chapter’s growing national reach and collaborative impact.
+				</p>
 
 			</div>
 

@@ -163,7 +163,6 @@ const categories = [
   "Education",
   "AI / ML",
   "Data Science",
-  "IoT",
   "Community"
 ];
 

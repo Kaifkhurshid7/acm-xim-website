@@ -1,9 +1,9 @@
 import React from "react";
 // import motion from 'motion/react'
-import DesktopComponent from "../../components/newsletter/NLDesktop";
-import MobileDesktop from "../../components/newsletter/NLMobile";
+import DesktopComponent from "../../components/projects/ProjectListDesktop";
+import MobileDesktop from "../../components/projects/ProjectListMobile";
 
-const Newsletter = () => {
+const Projects = () => {
   return (
     <div className="h-full w-full">
       <div className="hidden md:block">
@@ -16,4 +16,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default Projects;

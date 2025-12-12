@@ -1,5 +1,5 @@
 
-export default function NewsletterHeader() {
+export default function ProjectsHeader() {
 	return (
 		<div>
 			<h1 className="font-bebas-neue font-bold text-6xl text-center relative pb-4">

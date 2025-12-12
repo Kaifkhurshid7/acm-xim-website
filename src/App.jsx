@@ -6,7 +6,7 @@ import Events from "./events/Page";
 import EventPage from "./events/EventPage";
 import Team from "./team/Page";
 import Gallery from "./gallery/Page";
-import Newsletter from "./newsletter/Page";
+import Projects from "./projects/Page";
 import Membership from "./membership/Page";
 import Contact from "./contact/Page";
 import ErrorPage from "./errorpage/Page"
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/membership" element={<Membership />} />
-        <Route path="/projects" element={<Newsletter />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/pagenotfound" element={<ErrorPage />} />
         <Route path="*" element={<ErrorPage />} />

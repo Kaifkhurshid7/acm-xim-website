@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import { merchandise } from "/src/lib/data/project.data";
 import { motion } from "framer-motion";
 
-const NewsletterGrid = () => {
+const ProjectsGrid = () => {
 	// const navigate = useNavigate();
 
 	function handleCard() {
-		window.location.href = "/newsletter";
+		window.location.href = "/projects";
 	}
 
 	return (
@@ -35,7 +35,7 @@ const NewsletterGrid = () => {
 								<p className="font-bold text-sm md:text-lg font-inter" >
 									{item.price}
 								</p>
-								<a href="/newsletter" className="text-left hover:underline underline-offset-2 ">
+								<a href="/projects" className="text-left hover:underline underline-offset-2 ">
 									Click here to buy
 								</a>
 							</div>
@@ -47,4 +47,4 @@ const NewsletterGrid = () => {
 	);
 };
 
-export default NewsletterGrid;
+export default ProjectsGrid;

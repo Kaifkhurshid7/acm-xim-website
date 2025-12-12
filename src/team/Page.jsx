@@ -35,32 +35,35 @@ const Icons = {
 
 const memberTeamsData = {
     tech: [
-        { name: "Sanjay Kumar", email: "sanjay.k@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Sanjay+Kumar&background=3b82f6&color=fff&size=256" },
-        { name: "Priya Sharma", email: "priya.sh@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Priya+Sharma&background=3b82f6&color=fff&size=256" },
-        { name: "Rohit Varma", email: "rohit.v@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Rohit+Varma&background=3b82f6&color=fff&size=256" },
-        { name: "Aarav Singh", email: "aarav.s@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Aarav+Singh&background=3b82f6&color=fff&size=256" },
-        { name: "Kirti Rao", email: "kirti.r@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Kirti+Rao&background=3b82f6&color=fff&size=256" },
+        { name: "Vedansh Agrawal", email: "ucse25059@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Vedansh+Agrawal&background=3b82f6&color=fff&size=256" },
+        { name: "Jitisha Behera", email: "ucse24028@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Jitisha+Behera&background=3b82f6&color=fff&size=256" },
+        { name: "Anirudha Dash", email: "ucse23007@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Anirudha+Dash&background=3b82f6&color=fff&size=256" },
+        { name: "Akankshya Nayak", email: "ucse24007@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Akankshya+Nayak&background=3b82f6&color=fff&size=256" },
+        { name: "Sourav Samal", email: "ucse24059@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Sourav+Samal&background=3b82f6&color=fff&size=256" },
     ],
+
     events: [
-        { name: "Deepa Menon", email: "deepa.m@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Deepa+Menon&background=ef4444&color=fff&size=256" },
-        { name: "Vikas Dubey", email: "vikas.d@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Vikas+Dubey&background=ef4444&color=fff&size=256" },
-        { name: "Neha Sahoo", email: "neha.s@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Neha+Sahoo&background=ef4444&color=fff&size=256" },
-        { name: "Kunal Ghosh", email: "kunal.g@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Kunal+Ghosh&background=ef4444&color=fff&size=256" },
-        { name: "Sara Jacob", email: "sara.j@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Sara+Jacob&background=ef4444&color=fff&size=256" },
+        { name: "Bhabadeep Behera", email: "ucse24018@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Bhabadeep+Behera&background=ef4444&color=fff&size=256" },
+        { name: "Ashutosh De", email: "ucse24015@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Ashutosh+De&background=ef4444&color=fff&size=256" },
+        { name: "Jigisha Mohanty", email: "ucse24027@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Jigisha+Mohanty&background=ef4444&color=fff&size=256" },
+        { name: "Aryan Sahu", email: "ucse24012@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Aryan+Sahu&background=ef4444&color=fff&size=256" },
+        { name: "Roni Thomas", email: "ucse25029@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Roni+Thomas&background=ef4444&color=fff&size=256" },
     ],
+
     contentAndSupport: [
-        { name: "Anjali Roy", email: "anjali.r@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Anjali+Roy&background=10b981&color=fff&size=256" },
-        { name: "Mohit Das", email: "mohit.d@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Mohit+Das&background=10b981&color=fff&size=256" },
-        { name: "Tara Singh", email: "tara.s@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Tara+Singh&background=10b981&color=fff&size=256" },
-        { name: "Vivek Nair", email: "vivek.n@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Vivek+Nair&background=10b981&color=fff&size=256" },
-        { name: "Rina Shah", email: "rina.s@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Rina+Shah&background=10b981&color=fff&size=256" },
+        { name: "Sreeparna Chatterjee", email: "ucse24060@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Sreeparna+Chatterjee&background=10b981&color=fff&size=256" },
+        { name: "Ashmit Pradhan", email: "ucse24014@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Ashmit+Pradhan&background=10b981&color=fff&size=256" },
+        { name: "Ipsita Pradhan", email: "ucse23025@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Ipsita+Pradhan&background=10b981&color=fff&size=256" },
+        { name: "Suyash Raj", email: "ucse24063@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Suyash+Raj&background=10b981&color=fff&size=256" },
+        { name: "Sandisha Satarupa", email: "ucse25038@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Sandisha+Satarupa&background=10b981&color=fff&size=256" },
     ],
+
     mediaAndPR: [
-        { name: "Gaurav Jena", email: "gaurav.j@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Gaurav+Jena&background=f97316&color=fff&size=256" },
-        { name: "Isha Patel", email: "isha.p@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Isha+Patel&background=f97316&color=fff&size=256" },
-        { name: "Zafar Khan", email: "zafar.k@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Zafar+Khan&background=f97316&color=fff&size=256" },
-        { name: "Lata Rani", email: "lata.r@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Lata+Rani&background=f97316&color=fff&size=256" },
-        { name: "David John", email: "david.j@xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=David+John&background=f97316&color=fff&size=256" },
+        { name: "Satya Das", email: "ucse22034@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Satya+Das&background=f97316&color=fff&size=256" },
+        { name: "Suraj Maharana", email: "ucse23059@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Suraj+Maharana&background=f97316&color=fff&size=256" },
+        { name: "Sonali Nayak", email: "ucse23055@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Sonali+Nayak&background=f97316&color=fff&size=256" },
+        { name: "Dibyanshi Rath", email: "ucse23019@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Dibyanshi+Rath&background=f97316&color=fff&size=256" },
+        { name: "Pooja Samantaray", email: "ucse24040@stu.xim.edu.in", imageUrl: "https://ui-avatars.com/api/?name=Pooja+Samantaray&background=f97316&color=fff&size=256" },
     ]
 };
 
@@ -128,15 +131,16 @@ const teamSections = [
                     "https://ui-avatars.com/api/?name=Siddhant+Pradhan&background=db2777&color=fff&size=256"
             },
             {
-                name: "Priyanshu",
+                name: "Priyanshu Pati",
                 role: "Secretary",
                 tag: "Documentation & Coordination",
-                email: "aditya.verma@xim.edu.in",
-                linkedin: "https://linkedin.com/in/aditya-verma",
-                github: "https://github.com/adiverma",
+                email: "ucse23043@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/priyanshupati/",
+                github: "https://github.com/Priyanshuu10",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Aditya+Verma&background=15803d&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Priyanshu+Pati&background=15803d&color=fff&size=256"
             }
+
         ]
     },
     {
@@ -145,24 +149,22 @@ const teamSections = [
         accent: "Supervisors",
         members: [
             {
-                name: "Sarthak Jain",
-                role: "Senior Supervisor",
-                tag: "Alumni – ACM–XIM",
-                email: "sarthak.jain@alumni.xim.edu.in",
-                linkedin: "https://linkedin.com/in/sarthak-jain",
-                github: "https://github.com/sarthakj",
+                name: "Abhilasha Panda",
+                role: "Ex-chairperson",
+                email: "ucse22001@stu.xim.edu.in",
+                linkedin: "",
+                github: "",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Sarthak+Jain&background=0369a1&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Abhilasha+Panda&background=0f766e&color=fff&size=256"
             },
             {
-                name: "Meera Thomas",
-                role: "Senior Supervisor",
-                tag: "Alumni – ACM–XIM",
-                email: "meera.thomas@alumni.xim.edu.in",
-                linkedin: "https://linkedin.com/in/meera-thomas",
-                github: "https://github.com/meerathomas",
+                name: "Ansika Mohanty",
+                role: "Ex-vice chairperson",
+                email: "ucse22007@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/ansika-mohanty-314489247",
+                github: "",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Meera+Thomas&background=be123c&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Ansika+Mohanty&background=0f172a&color=fff&size=256"
             }
         ]
     },
@@ -172,104 +174,112 @@ const teamSections = [
         accent: "Core Team",
         members: [
             {
-                name: "Nidhi Patel",
+                name: "Sai Shreya Mohanty",
                 role: "Treasurer",
-                tag: "Finance & Sponsorships",
-                email: "nidhi.patel@xim.edu.in",
-                linkedin: "https://linkedin.com/in/nidhi-patel",
-                github: "https://github.com/nidhipatel",
+                email: "ucse24051@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/sai-shreya-mohanty-80721631a",
+                github: "https://github.com/shreyasaii",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Nidhi+Patel&background=7c2d12&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Sai+Shreya+Mohanty&background=7c2d12&color=fff&size=256"
             },
             {
-                name: "Arjun Nair",
-                role: "Convenor – Tech",
-                tag: "Technical Strategy",
-                email: "arjun.nair@xim.edu.in",
-                linkedin: "https://linkedin.com/in/arjun-nair",
-                github: "https://github.com/arjunair",
+                name: "Piyush Nayak",
+                role: "Convener",
+                email: "ucse23039@stu.xim.edu.in",
+                linkedin: "",
+                github: "",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Arjun+Nair&background=2563eb&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Piyush+Nayak&background=2563eb&color=fff&size=256"
             },
             {
-                name: "Simran Kaur",
+                name: "Anupam",
+                role: "Tech Lead",
+                email: "",
+                linkedin: "",
+                github: "",
+                imageUrl:
+                    "https://ui-avatars.com/api/?name=Anupam&background=2563eb&color=fff&size=256"
+            },
+            {
+                name: "Ayush Jha",
                 role: "Deputy Tech Lead",
-                tag: "Platforms & Infrastructure",
-                email: "simran.kaur@xim.edu.in",
-                linkedin: "https://linkedin.com/in/simran-kaur",
-                github: "https://github.com/simrank",
+                email: "ucse24017@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/ayuzhjha",
+                github: "https://github.com/decodingayush",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Simran+Kaur&background=9f1239&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Ayush+Jha&background=9f1239&color=fff&size=256"
             },
             {
-                name: "Mohammed Ali",
+                name: "Soumya Sathpathy",
                 role: "Events Lead",
-                tag: "Flagship & National Events",
-                email: "mohammed.ali@xim.edu.in",
-                linkedin: "https://linkedin.com/in/mohammed-ali",
-                github: "https://github.com/mohdali",
+                email: "ucse23056@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/soumya-prakash-satapathy-b57b68284",
+                github: "https://github.com/Soumyasatapathy1819",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Mohammed+Ali&background=14532d&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Soumya+Sathpathy&background=14532d&color=fff&size=256"
             },
             {
-                name: "Tanvi Deshpande",
+                name: "Dua Rajat",
                 role: "Deputy Events Lead",
-                tag: "Logistics & Coordination",
-                email: "tanvi.deshpande@xim.edu.in",
-                linkedin: "https://linkedin.com/in/tanvi-deshpande",
-                github: "https://github.com/tanvid",
+                email: "",
+                linkedin: "",
+                github: "",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Tanvi+Deshpande&background=ef4444&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Dua+Rajat&background=ef4444&color=fff&size=256"
             },
             {
-                name: "Rahul Iyer",
+                name: "Sakshi Pandey",
                 role: "Content Lead",
-                tag: "Communication & Documentation",
-                email: "rahul.iyer@xim.edu.in",
-                linkedin: "https://linkedin.com/in/rahul-iyer",
-                github: "https://github.com/rahuliyer",
+                email: "ucse24052@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/sakshi-pandey-20263331a",
+                github: "https://github.com/Sakshi-230",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Rahul+Iyer&background=1d4ed8&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Sakshi+Pandey&background=1d4ed8&color=fff&size=256"
             },
             {
-                name: "Shruti Das",
+                name: "Pritisha Sarangi",
                 role: "Deputy Content Lead",
-                tag: "Outreach & Copies",
-                email: "shruti.das@xim.edu.in",
-                linkedin: "https://linkedin.com/in/shruti-das",
-                github: "https://github.com/shrutid",
+                email: "ucse24045@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/pritisha-sarangi-4a29102b2",
+                github: "https://github.com/pritisha-a11y",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Shruti+Das&background=ea580c&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Pritisha+Sarangi&background=ea580c&color=fff&size=256"
             },
             {
-                name: "Vikram Kapoor",
+                name: "Prashant Kumar",
                 role: "Media & PR Lead",
-                tag: "Design & Social Media",
-                email: "vikram.kapoor@xim.edu.in",
-                linkedin: "https://linkedin.com/in/vikram-kapoor",
-                github: "https://github.com/vikramk",
+                email: "ucse24042@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/prashant-raj-0a7a90306/",
+                github: "https://github.com/prashantrajj1",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Vikram+Kapoor&background=047857&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Prashant+Kumar&background=047857&color=fff&size=256"
             },
             {
-                name: "Ayesha Khan",
-                role: "Chapter PoC",
-                tag: "ACM India & University Liaison",
-                email: "ayesha.khan@xim.edu.in",
-                linkedin: "https://linkedin.com/in/ayesha-khan",
-                github: "https://github.com/ayeshak",
+                name: "Srimad Nayak",
+                role: "Operational Lead",
+                email: "ucse24061@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/srimadsnehashis",
+                github: "https://github.com/srimad1111",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Ayesha+Khan&background=2563eb&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Srimad+Nayak&background=0f766e&color=fff&size=256"
             },
             {
-                name: "Ritvik Rao",
-                role: "Event PoC",
-                tag: "Inter-College Coordination",
-                email: "ritvik.rao@xim.edu.in",
-                linkedin: "https://linkedin.com/in/ritvik-rao",
-                github: "https://github.com/ritvikrao",
+                name: "Mohit Singh",
+                role: "POC",
+                email: "ucse24033@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/mohit-singh-6a190b317/",
+                github: "https://github.com/notsomohit",
                 imageUrl:
-                    "https://ui-avatars.com/api/?name=Ritvik+Rao&background=b91c1c&color=fff&size=256"
+                    "https://ui-avatars.com/api/?name=Mohit+Singh&background=0f172a&color=fff&size=256"
+            },
+            {
+                name: "Sadhana Routary",
+                role: "POC",
+                email: "ucse24033@stu.xim.edu.in",
+                linkedin: "https://www.linkedin.com/in/mohit-singh-6a190b317/",
+                github: "https://github.com/notsomohit",
+                imageUrl:
+                    "https://ui-avatars.com/api/?name=Mohit+Singh&background=0f172a&color=fff&size=256"
             }
         ]
     },

@@ -1,6 +1,8 @@
 import React from "react";
 import {MoreAbout} from "../../lib/data/landing-page/about-and-highlights.data"
 
+const team = "src/assets/team-jpg.png"
+
 const AboutMore = () => {
   return (
     
@@ -19,7 +21,9 @@ const AboutMore = () => {
         <div className="h-[26rem] w-full rounded-2xl bg-neutral-200"></div>
         <div className="h-[26rem] w-full rounded-2xl bg-neutral-200"></div>
         <div className="h-[26rem] w-full rounded-2xl bg-neutral-200"></div>
-        <div className="h-[26rem] w-full rounded-2xl bg-neutral-50"></div>
+        <div className="h-[26rem] w-full rounded-2xl bg-neutral-50 p-10">
+          <img src={team} alt="" />
+        </div>
         <div className="h-[26rem] w-full rounded-2xl bg-neutral-200"></div>
       </div>
     </div>
