@@ -1,4 +1,28 @@
 // src/lib/data/events.global.data.js
+import orientationBg from "../../assets/Main_gallery/IMG_20251209_234907.jpg";
+import orientationG1 from "../../assets/Main_gallery/IMG_20251209_234926.jpg";
+import orientationG2 from "../../assets/Main_gallery/IMG_20251209_234935.jpg";
+import orientationG3 from "../../assets/Main_gallery/IMG_20251209_234944.jpg";
+
+import clashBg from "../../assets/Main_gallery/IMG_20251209_235003.jpg";
+import clashG1 from "../../assets/Main_gallery/IMG_20251209_235014.jpg";
+import clashG2 from "../../assets/Main_gallery/IMG_20251209_235025.jpg";
+import clashG3 from "../../assets/Main_gallery/IMG_20251209_235038.jpg";
+
+import pythonBg from "../../assets/Main_gallery/IMG_20251209_235127.jpg";
+import pythonG1 from "../../assets/Main_gallery/IMG_20251209_235136.jpg";
+import pythonG2 from "../../assets/Main_gallery/IMG_20251209_235229.jpg";
+import pythonG3 from "../../assets/Main_gallery/IMG_20251210_000153.jpg";
+
+import tirangaBg from "../../assets/Main_gallery/IMG_20251210_000231.jpg";
+import tirangaG1 from "../../assets/Main_gallery/IMG_20251211_012145.jpg";
+import tirangaG2 from "../../assets/Main_gallery/IMG_2158.jpg";
+import tirangaG3 from "../../assets/Main_gallery/IMG_2160.jpg";
+
+import mindsparkBg from "../../assets/Main_gallery/IMG-20250811-WA0003.jpg";
+import mindsparkG1 from "../../assets/Main_gallery/IMG-20250811-WA0005.jpg";
+import mindsparkG2 from "../../assets/Main_gallery/IMG-20250909-WA0018.jpg";
+import mindsparkG3 from "../../assets/Main_gallery/IMG-20251209-WA0016.jpg";
 
 // This contains the list of events (all sessions)
 // 2025-26 → current
@@ -12,7 +36,7 @@ const events = [
     id: "orientation-2025-26",
     title: "ACM Chapter Orientation 2025-26",
     posterImg: "src/assets/home_event_pic/orientation_img.png",
-    backgroundImg: "/assets/events/placeholder/quiz-bg.jpg",
+    backgroundImg: orientationBg,
     venue: "CR 301, 3rd Floor, NAB, XIM University",
     time: "July 20, 2025 · 3:00 PM – 4:30 PM",
     session: "2025-26",
@@ -27,19 +51,23 @@ const events = [
       "Attendees are encouraged to ask questions regarding membership and activities.",
     ],
     // leaderboard: [],
-    gallery: [],
+    gallery: [
+      orientationG1,
+      orientationG2,
+      orientationG3
+    ],
   },
   {
     id: "Clash of Code",
     title: "Clash of Code",
     posterImg: "src/assets/home_event_pic/clashofcodes.png",
-    backgroundImg: "/assets/events/placeholder/quiz-bg.jpg",
+    backgroundImg: clashBg,
     venue: "CR 301, 3rd Floor, NAB, XIM University",
     time: "July 20, 2025 · 3:00 PM – 4:30 PM",
     session: "2025-26",
     type: "Coding Competition",
     registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd94m31etLNSASL5WEk-SYaFtpAwPybs8kDmraW5ZLyHVSi-w/viewform?usp=sharing&ouid=101810836675428734315",
-    rulebook: "#",
+    rulebook: "https://drive.google.com/file/d/14wbrt56DP9dQcOfv7lHWIcNYKJQlYgsP/view?usp=sharing",
     description:
       "Clash of Code is a competitive coding event designed to test problem-solving skills, logic, and coding speed. The event is conducted in two formats: a 1 vs 1 coding battle exclusively for senior students, and a group-based coding challenge where teams compete to solve problem statements collaboratively. The competition encourages logical thinking, teamwork, and efficient coding under time constraints.",
     rulesAndRegulation: [
@@ -53,20 +81,24 @@ const events = [
       { name: "Sai Subham Sahoo (Senior Group) & Roni Thomas (Jr Group)", prize: "1st Place (Tech Gift)" },
       { name: "Koyena ( Senior Group) &  Vansh (Jr Group)", prize: "2nd Place (ACM Certificate)" },
     ],
-    gallery: [],
+    gallery: [
+      clashG1,
+      clashG2,
+      clashG3
+    ],
   },
 
   {
     id: "pythonverse-2025",
     title: "PythonVerse: Coding & Project Challenge",
     posterImg: "src/assets/home_event_pic/pythonverse.png",
-    backgroundImg: "src/assets/home_event_pic/pythonverse.png",
+    backgroundImg: pythonBg,
     venue: "Lab 5, 3rd Floor, NAB, XIM University",
     time: "September 25, 2025 | 4:00 PM – 6:00 PM",
     session: "2025-26",
     type: "Coding Competition",
     registrationLink: "https://forms.gle/Gret6JvCYEHLJv6KA",
-    rulebook: "#",
+    rulebook: "https://drive.google.com/file/d/1w15mR3C81slae3mWVhD9yu15pUkvpn2j/view?usp=sharing",
     description:
       "A comprehensive Python competition with three distinct tracks: standard coding problems, implementation of DSA concepts, and a 'Project Void' round where participants must debug and complete a partially written Python application (project).",
     rulesAndRegulation: [
@@ -80,19 +112,23 @@ const events = [
       { name: "Koyena Sutradhar & Mrinalee Mishra", prize: "1st Place (Tech Gift)" },
       { name: "Pushkar Singh & Prashant Kumar", prize: "2nd Place (ACM Certificate)" },
     ],
-    gallery: [],
+    gallery: [
+      pythonG1,
+      pythonG2,
+      pythonG3
+    ],
   },
   {
     id: "code-tiranga-2025",
     title: "Code Tiranga: Web Designing Challenge",
     posterImg: "src/assets/home_event_pic/code-tiranga.png",
-    backgroundImg: "/assets/events/placeholder/web-bg.jpg",
+    backgroundImg: tirangaBg,
     venue: "Online (Remote Submission)",
     time: "October 26, 2025 · 9:00 AM – 5:00 PM",
     session: "2025-26",
     type: "Design Challenge",
     registrationLink: "https://forms.gle/4KjJ2DAANuEBAxVC9",
-    rulebook: "#",
+    rulebook: "https://drive.google.com/file/d/1za_YZmXKQuMzVrqnUNI79E48LUHV251J/view?usp=sharing",
     description:
       "An online web design competition where participants are challenged to build a creative and fully responsive website based on a given theme (e.g., 'Digital India', 'National Heritage'), utilizing modern HTML, CSS, and JavaScript.",
     rulesAndRegulation: [
@@ -106,18 +142,22 @@ const events = [
       { name: "Pratyush Jha (Delhi Technical Campus)", prize: "2nd Place (ACM Certificate)" },
       { name: "Samina Sultana (Sitare University)", prize: "3rd Place (ACM Certificate)" },
     ],
-    gallery: [],
+    gallery: [
+      tirangaG1,
+      tirangaG2,
+      tirangaG3
+    ],
   },
   {
     id: "mind-spark-2-2025",
     title: "Mind Spark 2.0: Logical Aptitude Challenge",
     posterImg: "src/assets/home_event_pic/mindspark.png",
-    backgroundImg: "/assets/events/legacy/mindspark-bg.jpg",
+    backgroundImg: mindsparkBg,
     venue: "Lab 5, 3rd Floor, NAB, XIM University",
     time: "November 8, 2025 | 4:00 PM – 5:00 PM",
     session: "2025-26",
     type: "Logical Challenge",
-    registrationLink: "#",
+    registrationLink: "https://drive.google.com/file/d/1Lc714D8wArE3qfcSYMmqa06ckUtI9-8W/view?usp=sharing",
     rulebook: "#",
     description:
       "The second edition of Mind Spark, focusing on advanced aptitude and logical reasoning problems. The challenge is designed to sharpen critical thinking and problem-solving skills necessary for technical interviews.",
@@ -132,7 +172,11 @@ const events = [
       { name: "Sai Suman Hota", prize: "2nd Place (ACM Certificate + Medals)" },
       // { name: "Anupam Choudhary (XIM University)", prize: "3rd Place (ACM Certificate)" },
     ],
-    gallery: [],
+    gallery: [
+      mindsparkG1,
+      mindsparkG2,
+      mindsparkG3
+    ],
   },
 
   // =========================================================================

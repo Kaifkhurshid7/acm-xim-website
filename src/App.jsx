@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
 import Home from "./landing/page.jsx";
@@ -11,8 +11,24 @@ import Membership from "./membership/Page";
 import Contact from "./contact/Page";
 import ErrorPage from "./errorpage/Page"
 import Footer from "./landing/sections/Footer";
+import Loader from "./components/Loader";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <div className="bg-neutral-50">
       <Navbar />

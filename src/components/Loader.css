@@ -1,0 +1,117 @@
+/* src/components/Loader.css */
+
+/* --- GLOBAL CONTAINER --- */
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000; /* Solid Black Background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    perspective: 1000px; /* Crucial for 3D depth */
+    overflow: hidden;
+}
+
+/* --- 3D ROTATING CUBE --- */
+.cube-wrapper {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    transform-style: preserve-3d; /* Allows child faces to be positioned in 3D */
+    animation: rotateCube 3s infinite linear;
+    margin-bottom: 3rem;
+}
+
+.cube-face {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #3b82f6; /* Blue Border */
+    background: rgba(59, 130, 246, 0.1); /* Semi-transparent Blue Fill */
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5); /* Glowing Effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Positioning the 6 faces to form a cube */
+.cube-face:nth-child(1) { transform: rotateY(0deg) translateZ(40px); }
+.cube-face:nth-child(2) { transform: rotateY(90deg) translateZ(40px); }
+.cube-face:nth-child(3) { transform: rotateY(180deg) translateZ(40px); }
+.cube-face:nth-child(4) { transform: rotateY(-90deg) translateZ(40px); }
+.cube-face:nth-child(5) { transform: rotateX(90deg) translateZ(40px); }
+.cube-face:nth-child(6) { transform: rotateX(-90deg) translateZ(40px); }
+
+@keyframes rotateCube {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+/* --- ROLLING TEXT ANIMATION --- */
+.text-container {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    height: 4rem; /* Restrict height for rolling effect */
+    align-items: center;
+}
+
+.letter-wrapper {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 2px;
+    line-height: 4rem;
+    transform-origin: bottom center;
+    /* Custom cubic-bezier for snappy, realistic roll */
+    animation: rollIn 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    opacity: 0;
+    /* Initial state: hidden below and rotated away */
+    transform: translateY(100%) rotateX(-90deg);
+}
+
+/* Color Classes (Tailwind-inspired utility classes) */
+.text-blue-300 { color: #60a5fa; }
+.text-blue-500 { color: #3b82f6; }
+.text-blue-700 { color: #2563eb; }
+.text-gray-200 { color: #e5e7eb; }
+.text-gray-400 { color: #9ca3af; }
+.text-gray-600 { color: #4b5563; }
+.text-transparent { color: transparent; margin: 0 5px;} 
+
+
+@keyframes rollIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100%) rotateX(-90deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotateX(0deg);
+        text-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+    }
+}
+
+/* --- SUBTITLE --- */
+.loader-subtitle {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.4em;
+    color: #6b7280;
+    text-transform: uppercase;
+    animation: fadeIn 1s ease-out 1s forwards; /* Starts 1s after text roll-in begins */
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
