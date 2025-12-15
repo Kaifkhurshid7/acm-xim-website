@@ -12,21 +12,21 @@ const HighlightHeader = () => {
 
 
 			{/* NEW SECTION: ACM INDIA WINTER SCHOOL (FIRST SECTION) */}
-			<h2 className="font-bebas-neue font-bold text-6xl text-center pb-6">
+			<h2 id="acm-winter-school" className="font-bebas-neue font-bold text-6xl text-center pb-6">
 				ACM India{" "}
 				<span className="text-blue-500">Winter School 2025</span>
 			</h2>
 
-	<p className="text-sm md:text-base xl:text-lg text-center text-neutral-700">
-    ACM–XIM is scheduled to host the{" "}
-    <span className="text-blue-700">ACM India Winter School 2025</span> on the theme of{" "}
-    <span className="text-blue-700">Responsible AI</span>, exclusively for{" "}
-    <span className="text-blue-700">women participants</span>.
-    The program will run from{" "}
-    <span className="text-blue-700">December 15–24, 2025</span>, bringing together aspiring
-    students, researchers, and professionals for an intensive learning experience guided
-    by national-level experts in AI ethics, fairness, and accountability.
-</p>
+			<p className="text-sm md:text-base xl:text-lg text-center text-neutral-700">
+				ACM–XIM is scheduled to host the{" "}
+				<span className="text-blue-700">ACM India Winter School 2025</span> on the theme of{" "}
+				<span className="text-blue-700">Responsible AI</span>, exclusively for{" "}
+				<span className="text-blue-700">women participants</span>.
+				The program will run from{" "}
+				<span className="text-blue-700">December 15–24, 2025</span>, bringing together aspiring
+				students, researchers, and professionals for an intensive learning experience guided
+				by national-level experts in AI ethics, fairness, and accountability.
+			</p>
 
 			{/* FIRST SECTION IMAGE (Winter School) - UPDATED FOR RESPONSIVENESS */}
 			<div className="flex flex-col justify-between py-12 lg:py-14 2xl:py-16 max-w-[90rem] mx-auto">

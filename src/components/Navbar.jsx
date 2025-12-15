@@ -32,7 +32,7 @@ const Navbar = () => {
       style={{ opacity }}
       className="w-full fixed px-max h-18 md:h-22 flex items-center bg-neutral-50/0 z-[999] "
     >
-      <div className="w-full max-w-[90rem] mx-auto flex justify-between gap-12 items-center relative">
+      <div className="w-full max-w-[90rem] mx-auto flex justify-between gap-12 items-center relative mb-4">
         <a
           href="/"
           className="flex items-center"
@@ -45,7 +45,7 @@ const Navbar = () => {
         </a>
 
         {/* MIDDLE LINKS */}
-        <div className=" hidden lg:flex py-4 px-10 bg-white backdrop-blur-lg rounded-4xl relative overflow-clip gap-6 -left-10 ">
+        <div className=" hidden lg:flex py-4 px-10 bg-white border border-white/20 shadow-lg rounded-4xl relative overflow-clip gap-6 -left-10 ">
           {Links.map((link, index) => (
             <a
               key={index}
@@ -62,7 +62,7 @@ const Navbar = () => {
         {/* THE MENU BUTTON */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="rounded-full bg-neutral-50 cursor-pointer p-2.5 md:p-3.5 relative  flex items-center justify-center"
+          className="rounded-full bg-white border border-white/20 shadow-lg cursor-pointer p-2.5 md:p-3.5 relative flex items-center justify-center"
         >
           <Menu className="" />
         </button>
@@ -94,7 +94,7 @@ function NoticeBoard({ isOpen }) {
       className={`fixed top-0 right-48 2xl:right-[19vw] 3xl:right-[8vw] group cursor-pointer scale-80 hidden xl:block lg:scale-100 z-[9] ${isOpen ? "hidden" : "block"
         } transition-all ease-in-out duration-500`}
     >
-      <div className="w-fit bg-black relative">
+      {/* <div className="w-fit bg-black relative">
         <motion.div className="flex items-center justify-around p-1  lg:px-3">
           <a
             href={DDS_PLATFORM_URL}
@@ -110,7 +110,7 @@ function NoticeBoard({ isOpen }) {
             className="relative opacity-95 top-[1px]"
           />
         </motion.div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

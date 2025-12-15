@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { TextAnimate } from "./magicui/TextAnimate";
 import { BlurFade } from "./magicui/BlurFade";
 import { ArrowRight, ArrowUpRight, Calendar } from "lucide-react";
-import {PreviousEventsData} from "../lib/data/landing-page/events.data"
+import { PreviousEventsData } from "../lib/data/landing-page/events.data"
 
 export default function HorizontalScroll() {
   const targetRef = useRef(null);
@@ -64,7 +64,7 @@ export default function HorizontalScroll() {
 
 function PreviousEventsHeader() {
   return (
-    <div  className="px-max mx-auto">
+    <div className="px-max mx-auto">
       <h1 className="font-black w-fit font-bebas-neue text-shadow-xs tracking-wide text-heading relative top-0">
         <TextAnimate animation="blurIn" as="h1" by="character" delay={0.3}>
           Previous events
