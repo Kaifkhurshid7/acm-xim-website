@@ -6,7 +6,7 @@ import Img1 from "../../assets/homepage_photo/img_1_.jpg";
 import Img2 from "../../assets/homepage_photo/img_2_.jpg";
 import Img3 from "../../assets/homepage_photo/img_3_.jpg";
 import Img4 from "../../assets/homepage_photo/img_4_.jpg";
-import Img5 from "../../assets/homepage_photo/img_5_.jpg";
+import Img5 from "../../assets/homepage_photo/img_5_.JPG";
 
 const AboutMore = () => {
   return (
